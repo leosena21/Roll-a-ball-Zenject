@@ -7,7 +7,7 @@ using Zenject;
 public class WinMenssage : MonoBehaviour
 {
     [Inject]
-    WinSignal _winSignal;
+    SignalCreate.WinSignal _winSignal;
 
     public Text winText;
 

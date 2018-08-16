@@ -9,7 +9,7 @@ public class ScoreMenssage : MonoBehaviour {
     public Text Score;
 
     [Inject]
-    ScoreSignal _scoreSignal;
+    SignalCreate.ScoreSignal _scoreSignal;
 
     private void Start()
     {

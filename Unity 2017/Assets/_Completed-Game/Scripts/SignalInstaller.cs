@@ -8,10 +8,10 @@ public class SignalInstaller : MonoInstaller<SignalInstaller>
         public override void InstallBindings()
         {
 
-        Container.DeclareSignal<WinSignal>();
-        Container.DeclareSignal<ScoreSignal>();
+        Container.DeclareSignal<SignalCreate.WinSignal>();
+        Container.DeclareSignal<SignalCreate.ScoreSignal>();
 
-        Container.Bind<WinManager>().AsSingle();
+        Container.Bind<SignalManager>().AsSingle();
 
         Debug.Log("SignallInstaller - ok");
 

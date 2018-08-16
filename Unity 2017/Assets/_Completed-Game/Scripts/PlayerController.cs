@@ -29,11 +29,8 @@ public class PlayerController : MonoBehaviour {
 		float moveHorizontal = Input.GetAxis ("Horizontal");
 		float moveVertical = Input.GetAxis ("Vertical");
 
-		// Create a Vector3 variable, and assign X and Z to feature our horizontal and vertical float variables above
 		Vector3 movement = new Vector3 (moveHorizontal, 0.0f, moveVertical);
 
-		// Add a physical force to our Player rigidbody using our 'movement' Vector3 above, 
-		// multiplying it by 'speed' - our public player speed that appears in the inspector
 		rb.AddForce (movement * speed);
 	}
 }
