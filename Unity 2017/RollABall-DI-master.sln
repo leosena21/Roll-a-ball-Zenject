@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RollABall-DI-master.Plugins", "RollABall-DI-master.Plugins.csproj", "{5D324FE7-7B1F-4A9A-5C90-A2668B80A66C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RollABall-DI-master", "RollABall-DI-master.csproj", "{2F3B8A7F-78BD-ECC6-BBF9-D53A452B3451}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RollABall-DI-master.Editor.Plugins", "RollABall-DI-master.Editor.Plugins.csproj", "{1B70C3F5-A67F-FCB7-FF51-9B13FCBF61D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RollABall-DI-master.Editor", "RollABall-DI-master.Editor.csproj", "{3DFBCD0A-360C-039A-9AC8-B03B40B15C76}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5D324FE7-7B1F-4A9A-5C90-A2668B80A66C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D324FE7-7B1F-4A9A-5C90-A2668B80A66C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D324FE7-7B1F-4A9A-5C90-A2668B80A66C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D324FE7-7B1F-4A9A-5C90-A2668B80A66C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F3B8A7F-78BD-ECC6-BBF9-D53A452B3451}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F3B8A7F-78BD-ECC6-BBF9-D53A452B3451}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F3B8A7F-78BD-ECC6-BBF9-D53A452B3451}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F3B8A7F-78BD-ECC6-BBF9-D53A452B3451}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B70C3F5-A67F-FCB7-FF51-9B13FCBF61D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B70C3F5-A67F-FCB7-FF51-9B13FCBF61D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B70C3F5-A67F-FCB7-FF51-9B13FCBF61D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B70C3F5-A67F-FCB7-FF51-9B13FCBF61D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DFBCD0A-360C-039A-9AC8-B03B40B15C76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DFBCD0A-360C-039A-9AC8-B03B40B15C76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DFBCD0A-360C-039A-9AC8-B03B40B15C76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DFBCD0A-360C-039A-9AC8-B03B40B15C76}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
